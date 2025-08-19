@@ -24,7 +24,7 @@
 {
   "email": "example@mail.com",
   "password": "password123",
-  "confirmedPassword": "password123"
+  "confirmPassword": "password123"
 }
 ```
 
