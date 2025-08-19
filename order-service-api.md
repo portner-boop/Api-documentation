@@ -3,12 +3,13 @@
 This document provides comprehensive documentation for both frontend developers and QA testers working with the Order Service API.
 
 ## API Endpoints
+# Base : /api/v1/orders
 
 ### 1. Create a New Order
 **Endpoint:** `POST /`
 
 **Request Body:**
-```json
+json
 {
   "userId": "uuid-string",
   "spaceId": 1,

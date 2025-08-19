@@ -4,6 +4,7 @@ This document provides comprehensive documentation for both frontend developers 
 
 
 ## API Endpoints
+# Base: /api/v1/floors/vis
 
 ### 1. Upload Floor Visualization
 **Endpoint:** `POST /{floorId}/upload`
@@ -18,7 +19,7 @@ This document provides comprehensive documentation for both frontend developers 
 2. `places` - JSON array of space coordinates (see example below)
 
 **Example places data:**
-```json
+json
 [
   {
     "spaceId": 1,
