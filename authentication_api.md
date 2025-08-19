@@ -112,7 +112,7 @@
 {
   "oldPassword": "oldPassword123",
   "newPassword": "newPassword456",
-  "confirmedNewPassword": "newPassword456"
+  "newPasswordConfirm": "newPassword456"
 }
 ```
 
@@ -190,7 +190,7 @@
 |-------------------|--------|--------------|---------------------------|
 | email             | string | да           | Email пользователя       |
 | password          | string | да         | Пароль                   |
-| confirmedPassword | string | да         | Подтверждение пароля     |
+| confirmPassword   | string | да         | Подтверждение пароля     |
 
 ---
 
@@ -214,7 +214,7 @@
 |----------------------|---------|--------------|--------------------------------|
 | oldPassword          | string | да | Текущий пароль                 |
 | newPassword          | string | да | Новый пароль                   |
-| confirmedNewPassword | string | да | Подтверждение нового пароля    |
+| newPasswordConfirm | string | да | Подтверждение нового пароля    |
 
 ---
 
